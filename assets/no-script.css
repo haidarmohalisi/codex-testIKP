@@ -1,0 +1,9 @@
+/* Navigasi dan konten tetap tersedia ketika JavaScript dinonaktifkan. */
+.menu-toggle,.filter-bar,.project-open,#contact-form{display:none!important}
+@media(max-width:850px){
+  .header-inner{height:auto;min-height:80px;padding-block:18px;flex-wrap:wrap;gap:18px}
+  .nav-wrap{width:100%;display:block}
+  .site-nav{position:static;display:flex;flex-direction:row;flex-wrap:wrap;gap:8px 22px;padding:0;box-shadow:none}
+  .site-nav a{padding:5px 0;border:0}
+  .nav-cta{display:none}
+}
